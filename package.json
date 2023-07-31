@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/random-array-exponential",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Create an array containing pseudorandom numbers drawn from an exponential distribution.",
   "license": "Apache-2.0",
   "author": {
