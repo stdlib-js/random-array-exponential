@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import exponential from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-exponential@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/random-array-exponential/tags). For example,
+
+```javascript
 import exponential from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-exponential@v0.2.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-exponential@v0.2.1-esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-exponential@esm/index.mjs';
 ```
 
 #### exponential( len, lambda\[, options] )
@@ -341,7 +346,7 @@ var sz = random.byteLength;
 <script type="module">
 
 import logEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@esm/index.mjs';
-import exponential from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-exponential@v0.2.1-esm/index.mjs';
+import exponential from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-exponential@esm/index.mjs';
 
 // Create a function for generating random arrays originating from the same state:
 var random = exponential.factory( 2.0, {
